@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>HTML project</title>
+<link rel="stylesheet" href="../CSS/styles.css" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+/*
+body {
+	
+		background-image: url(../Images/redrun.gif);
+		background-repeat: no-repeat;
+		background-position: center center;
+		
+    	
+	
+}
+*/
+html{
+	min-height: 100%;
+}
+body {
+		/* height: 100%; */
+ 		background: rgba(77,158,234,1);
+		background: url(../Images/red_run.gif) no-repeat 50% 90%, url(../Images/grass_patchL.png) no-repeat 50% 100%,  -moz-radial-gradient(center, ellipse cover, rgba(77,158,234,1) 0%, rgba(77,158,234,1) 42%, rgba(36,126,229,1) 66%, rgba(36,126,229,1) 100%);
+		background: url(../Images/red_run.gif) no-repeat 50% 90%, url(../Images/grass_patchL.png) no-repeat 50% 100%,  -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(77,158,234,1)), color-stop(42%, rgba(77,158,234,1)), 									color-stop(66%, rgba(36,126,229,1)), color-stop(100%, rgba(36,126,229,1)));
+		background: url(../Images/red_run.gif) no-repeat 50% 90%, url(../Images/grass_patchL.png) no-repeat 50% 100%,  -webkit-radial-gradient(center, ellipse cover, rgba(77,158,234,1) 0%, rgba(77,158,234,1) 42%, rgba(36,126,229,1) 66%, rgba(36,126,229,1) 100%);
+		background: url(../Images/red_run.gif) no-repeat 50% 90%, url(../Images/grass_patchL.png) no-repeat 50% 100%,  -o-radial-gradient(center, ellipse cover, rgba(77,158,234,1) 0%, rgba(77,158,234,1) 42%, rgba(36,126,229,1) 66%, rgba(36,126,229,1) 100%);
+		background: url(../Images/red_run.gif) no-repeat 50% 90%, url(../Images/grass_patchL.png) no-repeat 50% 100%,  -ms-radial-gradient(center, ellipse cover, rgba(77,158,234,1) 0%, rgba(77,158,234,1) 42%, rgba(36,126,229,1) 66%, rgba(36,126,229,1) 100%);
+		background: url(../Images/red_run.gif) no-repeat 50% 90%, url(../Images/grass_patchL.png) no-repeat 50% 100%,  radial-gradient(ellipse at center, rgba(77,158,234,1) 0%, rgba(77,158,234,1) 42%, rgba(36,126,229,1) 66%, rgba(36,126,229,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d9eea', endColorstr='#247ee5', GradientType=1 );	
+
+}
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url(../Assets/Mario-Kart-DS.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "MetGear";
+	src: url(../Assets/METAG___.ttf) format("truetype");	
+	
+}
+
+#menu-bar {
+	font-family: "My Custom Font", Arial, Verdana;
+	
+}
+
+#menu-bar .soral {
+		float: left;
+}
+
+#menu-bar .sorar {
+		float: right;
+}
+
+#par {
+	padding: 0px 6px 0px 6px;
+	background: #06519F;
+	border: 5px solid #4A98E9;
+}
+
+#part {
+	border-bottom: 5px solid #4A98E9;
+}
+
+h1 {
+	text-align: center;
+	font-family: "MetGear", Arial, Verdana;
+	font-size: 3em;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+<center>
+<ul id="menu-bar"> 
+ <img src="../Images/sora trinity right.gif" width="60" height="60" alt="sora trinity" class="soral">
+ <li class="active"><a href="index.html">home</a></li>
+ <li><a href="#">---</a></li>
+ <li><a href="http://www.newegg.com/">link</a></li>
+ <li><a href="article.html">article</a></li>
+ <li><a href="classes.html">classes</a></li>
+ <li><a href="#">survey</a></li>
+ <img src="../Images/sora trinity left.gif" width="60" height="60" alt="sora trinity" class="sorar">
+</ul>
+</center>
+
+
+<h1>Isaiah Poole</h1>
+
+<div id="par">
+<div id="part">
+<h2>My Top Ten Video Games</h2>
+</div>
+<ol>
+<li>Kingdom Hearts</li>
+<li>Metal Gear Solid 3</li>
+<li>Pokemon LeafGreen</li>
+<li>The Legend of Zelda: A Link to the Past</li>
+<li>Pokemon Ranger: Explorers of Sky</li>
+<li>Bloodborne</li>
+<li>Dragon Ball Z: Budokai 3</li>
+<li>Kingdom Hearts 2</li>
+<li>Alan Wake</li>
+<li>Yoshi's Island</li>
+</ol>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Top Ten Video Games</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body">
+	  
+<ol>
+<li>Kingdom Hearts</li>
+<li>Metal Gear Solid 3</li>
+<li>Pokemon LeafGreen</li>
+<li>The Legend of Zelda: A Link to the Past</li>
+<li>Pokemon Ranger: Explorers of Sky</li>
+<li>Bloodborne</li>
+<li>Dragon Ball Z: Budokai 3</li>
+<li>Kingdom Hearts 2</li>
+<li>Alan Wake</li>
+<li>Yoshi's Island</li>
+</ol>
+	  
+	  </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
